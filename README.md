@@ -26,7 +26,7 @@ A sleek and interactive Weather App that provides real-time weather updates and 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/mihirdas77/Weather-App.git
    ```
 
 2. **Navigate to the Project Directory**:
@@ -40,7 +40,7 @@ A sleek and interactive Weather App that provides real-time weather updates and 
 
 ### Live Demo
 
-You can also view a live demo of the Weather App hosted [here](https://your-live-demo-url.com).
+You can also view a live demo of the Weather App hosted [here](https://weather-app-mihird.vercel.app/).
 
 ### License
 
