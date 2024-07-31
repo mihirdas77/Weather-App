@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="android-chrome-192x192.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Weather ☁️</h1>
+            <form> 
+                <input type="text" placeholder="Enter City" id="input" required>
+                <button type="submit">Search</button>
+            </form>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="weather-details">
+                <p><span>Temperature:</span> <span id="temp">-</span>°C</p>
+                <p><span>Minimum Temperature:</span> <span id="minTemp">-</span>°C</p>
+                <p><span>Maximum Temperature:</span> <span id="maxTemp">-</span>°C</p>
+                <p><span>Wind Speed:</span> <span id="wind">-</span> m/s</p>
+                <p><span>Cloudiness:</span> <span id="clouds">-</span>%</p>
+                <p><span>Sunrise:</span> <span id="sunrise">-</span></p>
+                <p><span>Sunset:</span> <span id="sunset">-</span></p>
+                <p><span>Pressure:</span> <span id="pressure">-</span> hPa</p>
+                <p><span>Visibility:</span> <span id="visibility">-</span> m</p>
+                <p><span>UV Index:</span> <span id="uvIndex">-</span></p>
+            </div>
+            
+            <iframe
+                width="100%"
+                height="450"
+                style="border:0"
+                loading="lazy"
+                src="https://www.google.com/maps?q=&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                >
+            </iframe>
+        </div>
+
+        <section class="forecast">
+            <h2>5-Day Forecast</h2>
+            <div class="forecast-container"></div>
+        </section>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
