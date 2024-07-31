@@ -42,10 +42,6 @@ A sleek and interactive Weather App that provides real-time weather updates and 
 
 You can also view a live demo of the Weather App hosted [here](https://weather-app-mihird.vercel.app/).
 
-### License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ### Contributing
 
 Feel free to contribute to the project by submitting issues or pull requests. If you have any suggestions or improvements, please let me know!
