@@ -30,7 +30,8 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 600px;
     align-items: center;
 }
 
