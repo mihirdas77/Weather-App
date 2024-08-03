@@ -31,7 +31,7 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
-    gap: 600px;
+    gap: auto;
     align-items: center;
 }
 
@@ -152,7 +152,40 @@ iframe {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsive design */
+
+/* Responsive design for very small screens (e.g., smartphones) */
+@media (max-width: 480px) {
+    nav h1 {
+        font-size: 20px;
+    }
+
+    nav input[type="text"] {
+        padding: 10px;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    nav button {
+        padding: 10px;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .weather-details p {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .forecast h2 {
+        font-size: 18px;
+    }
+
+    .forecast-item p {
+        font-size: 14px;
+    }
+}
+
+/* Responsive design for tablets and larger mobile devices */
 @media (max-width: 768px) {
     nav form {
         flex-direction: column;
@@ -169,5 +202,35 @@ iframe {
 
     .forecast-container, .weather-details {
         grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 768px) {
+    nav input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    nav button {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+/* Responsive design for very small screens (up to 480px) */
+@media (max-width: 480px) {
+    nav input[type="text"] {
+        width: 100%;
+        margin-bottom: 8px;
+        padding: 8px;
+        font-size: 12px;
+    }
+    
+    nav button {
+        width: 100%;
+        padding: 8px;
+        font-size: 12px;
     }
 }
